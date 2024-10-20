@@ -6,22 +6,22 @@
         {
           "name": "Primary",
           "slug": "primary",
-          "color": "#0073aa"
+          "color": "#1d3557"
         },
         {
-          "name": "Secondary",
-          "slug": "secondary",
+          "name": "Accent",
+          "slug": "accent",
+          "color": "#e63946"
+        },
+        {
+          "name": "Light",
+          "slug": "light",
+          "color": "#f1faee"
+        },
+        {
+          "name": "Dark",
+          "slug": "dark",
           "color": "#333333"
-        },
-        {
-          "name": "White",
-          "slug": "white",
-          "color": "#ffffff"
-        },
-        {
-          "name": "Black",
-          "slug": "black",
-          "color": "#000000"
         }
       ]
     },
@@ -33,23 +33,58 @@
           "size": "14px"
         },
         {
-          "name": "Medium",
-          "slug": "medium",
+          "name": "Normal",
+          "slug": "normal",
           "size": "18px"
         },
         {
           "name": "Large",
           "slug": "large",
-          "size": "24px"
+          "size": "32px"
+        },
+        {
+          "name": "Extra Large",
+          "slug": "extra-large",
+          "size": "48px"
+        }
+      ],
+      "fontFamilies": [
+        {
+          "name": "Sans Serif",
+          "slug": "sans-serif",
+          "fontFamily": "'Helvetica Neue', sans-serif"
+        },
+        {
+          "name": "Serif",
+          "slug": "serif",
+          "fontFamily": "'Georgia', serif"
         }
       ]
-    },
-    "spacing": {
-      "blockGap": "24px"
     },
     "layout": {
       "contentSize": "800px",
       "wideSize": "1200px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#f1faee",
+      "text": "#333333"
+    },
+    "typography": {
+      "fontSize": "18px",
+      "lineHeight": "1.6",
+      "fontFamily": "'Helvetica Neue', sans-serif"
+    },
+    "spacing": {
+      "blockGap": "32px",
+      "margin": "0 auto",
+      "padding": {
+        "top": "20px",
+        "right": "20px",
+        "bottom": "20px",
+        "left": "20px"
+      }
     }
   }
 }
