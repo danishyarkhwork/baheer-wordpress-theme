@@ -1,0 +1,29 @@
+<!-- wp:template-part {"slug":"header"} /-->
+
+<!-- wp:group {"tagName":"main"} -->
+<main>
+  <h2>Blog</h2>
+  <!-- wp:query {"queryId":1,"query":{"perPage":10,"postType":"post"}} -->
+  <div class="wp-block-query">
+    <ul>
+      <!-- wp:post-template -->
+      <li>
+        <h3>
+          <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+        </h3>
+        <p><?php the_excerpt(); ?></p>
+      </li>
+      <!-- /wp:post-template -->
+    </ul>
+    <!-- wp:query-pagination -->
+    <div class="wp-block-query-pagination">
+      <!-- wp:query-pagination-previous /-->
+      <!-- wp:query-pagination-next /-->
+    </div>
+    <!-- /wp:query-pagination -->
+  </div>
+  <!-- /wp:query -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer"} /-->
